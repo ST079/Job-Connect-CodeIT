@@ -98,4 +98,55 @@ It connects **job seekers** and **employers** through a clean, secure, and user-
 ---
 
 ## 📁 Folder Structure
+JobConnect/
+│
+├── client/      # React/Next.js frontend
+│   ├── public
+│   ├── src
+│       ├── assets
+│       └── components
+│       └── hooks
+│       └── pages
+|       └── styles
+|       └── layouts
+|       └── contexts
+|       └── constants
+|       └── utils
+|       └── services
+|
+|
+├── server/       # Node.js/Express backend
+│   ├── middlewares
+│   ├── modules
+│   ├── routes
+│   ├── services
+│   └── config
+│   └── utils
+|
+|
+└── README.md
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow the steps below to run the JobConnect Job Portal project locally.
+
+---
+
+### 🔹 1. Clone the Repository
+
+```bash
+git clone https://github.com/ST079/Job-Connect-CodeIT.git
+```
+
+### 🔹 Frontend
+cd client
+npm install
+npm run dev
+
+### 🔹 Backend
+cd server
+npm install
+npm run dev
 
