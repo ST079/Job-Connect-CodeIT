@@ -98,6 +98,7 @@ It connects **job seekers** and **employers** through a clean, secure, and user-
 ---
 
 ## 📁 Folder Structure
+```bash
 JobConnect/
 │
 ├── client/      # React/Next.js frontend
@@ -125,7 +126,7 @@ JobConnect/
 |
 |
 └── README.md
-
+```
 ---
 
 ## ⚙️ Installation & Setup
@@ -141,12 +142,12 @@ git clone https://github.com/ST079/Job-Connect-CodeIT.git
 ```
 
 ### 🔹 Frontend
-cd client
-npm install
-npm run dev
+cd client <br>
+npm install<br>
+npm run dev<br>
 
 ### 🔹 Backend
-cd server
-npm install
-npm run dev
+cd server<br>
+npm install<br>
+npm run dev<br>
 
