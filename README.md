@@ -1,4 +1,4 @@
-# JobConnect – Job Portal Website (MERN Stack)
+# Kaam Yeta Hai – Job Portal Website (MERN Stack)
 
 ![React](https://img.shields.io/badge/Frontend-React.js-blue)
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Status](https://img.shields.io/badge/Status-In_Development-orange)
 
-JobConnect is a modern and scalable **Job Portal Platform** built with the **MERN Stack**.  
+Kaam Yeta Hai is a modern and scalable **Job Portal Platform** built with the **MERN Stack**.  
 It connects **job seekers** and **employers** through a clean, secure, and user-friendly interface, while providing full control to **admins**.
 
 ---
