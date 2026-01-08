@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobConnect-About</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-poppins bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <div class="bg-primary p-2 rounded-lg">
+                        <i class="fas fa-briefcase text-white text-xl"></i>
+                    </div>
+                    <span class="text-xl font-bold text-gray-800">JobConnect</span>
+                </div>
+    
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-primary font-medium">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-primary font-medium">Browse Jobs</a>
+                    <a href="#" class="text-gray-600 hover:text-primary font-medium">Companies</a>
+                    <a href="about-us.html" class="text-blue-600 hover:text-primary font-medium">About</a>
+                </div>
+    
+                <!-- Search Bar -->
+                <div class="hidden lg:flex items-center bg-gray-100 rounded-lg px-3 py-2 w-64">
+                    <i class="fas fa-search text-gray-400 mr-2"></i>
+                    <input type="text" placeholder="Search jobs..." class="bg-transparent w-full focus:outline-none">
+                </div>
+    
+                <!-- Auth Buttons -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#" class="text-gray-600 hover:text-primary font-medium">Login</a>
+                    <a href="#"
+                        class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-400 transition duration-300">Register</a>
+                    <a href="#"
+                        class="bg-yellow-600 text-white px-4 py-2 rounded-lg hover:bg-yellow-400 transition duration-300">Post
+                        a Job</a>
+                </div>
+    
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-600 focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+    
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="#" class="text-gray-600 hover:text-primary font-medium">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-primary font-medium">Browse Jobs</a>
+                    <a href="#" class="text-gray-600 hover:text-primary font-medium">Companies</a>
+                    <a href="#" class="text-gray-600 hover:text-primary font-medium">About</a>
+                    <div class="pt-2 border-t border-gray-200">
+                        <a href="#" class="block text-gray-600 hover:text-primary font-medium mb-2">Login</a>
+                        <a href="#"
+                            class="block bg-blue-500 text-white px-4 py-2 rounded-lg text-center hover:bg-blue-400 transition duration-300 mb-2">Register</a>
+                        <a href="#"
+                            class="block bg-yellow-500 text-white px-4 py-2 rounded-lg text-center hover:bg-yellow-400 transition duration-300">Post
+                            a Job</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
